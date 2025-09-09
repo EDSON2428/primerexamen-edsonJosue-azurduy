@@ -1,4 +1,4 @@
-/* Variables de color */
+
 :root {
   --bg: #f9f9f9;
   --text: #111111;
@@ -9,7 +9,7 @@
   --footer-bg: #fff;
 }
 
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +23,7 @@ body {
   line-height: 1.5;
 }
 
-/* Header */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -53,7 +53,7 @@ nav a:hover {
   color: var(--primary);
 }
 
-/* Hero */
+
 main section:first-of-type {
   margin: 2rem auto;
   max-width: 800px;
@@ -68,7 +68,7 @@ main section:first-of-type h2 {
   font-weight: 600;
 }
 
-/* Productos */
+
 section ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -109,7 +109,7 @@ article p {
   font-weight: bold;
 }
 
-/* Botones */
+
 button {
   padding: 0.5rem 1rem;
   border: 2px solid var(--border); /* borde negro */
@@ -125,7 +125,7 @@ button:hover {
   border-color: var(--button-hover);
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   padding: 1rem;
@@ -134,7 +134,7 @@ footer {
   background-color: var(--footer-bg);
 }
 
-/* Enlace para saltar contenido */
+
 .skip-link {
   position: absolute;
   top: -40px;
@@ -150,7 +150,7 @@ footer {
   top: 10px;
 }
 
-/* Foco visible */
+
 a:focus,
 button:focus {
   outline: 3px solid #ff9900;
