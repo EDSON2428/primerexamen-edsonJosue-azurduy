@@ -1,1 +1,1 @@
-# primerexamen-edsonJosue-azurduy
+# Estudiante Edson Azurduy de la carrera de Sistemas Informaticos realiza su examen parcial creando este proyecto donde usara html5 semantico sobre la empresa MANACO el cual tambien debe ser renponsivo.
