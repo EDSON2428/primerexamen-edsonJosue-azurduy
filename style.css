@@ -133,3 +133,26 @@ footer {
   border: 2px solid var(--border); /* borde negro */
   background-color: var(--footer-bg);
 }
+
+/* Enlace para saltar contenido */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+/* Foco visible */
+a:focus,
+button:focus {
+  outline: 3px solid #ff9900;
+  outline-offset: 2px;
+}
